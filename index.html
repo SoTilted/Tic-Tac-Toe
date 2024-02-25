@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="player1">
+            <p>
+                <label for="text">Player 1</label>  
+                <input type="text" id="text" name="text">
+            </p>
+            <p id="marker">O</p>
+        </div>
+        <div class="game">
+            <div class="cell" data-id='00'><p></p></div>
+            <div class="cell" data-id='01'><p></p></div>
+            <div class="cell" data-id='02'><p></p></div>
+            <div class="cell" data-id='10'><p></p></div>
+            <div class="cell" data-id='11'><p></p></div>
+            <div class="cell" data-id='12'><p></p></div>
+            <div class="cell" data-id='20'><p></p></div>
+            <div class="cell" data-id='21'><p></p></div>
+            <div class="cell" data-id='22'><p></p></div>
+        </div>
+        <div class="player2">
+            <p>
+                <label for="text">Player 2</label> 
+                <input type="text" id="text" name="text">  
+                <p id="marker">X</p>
+            </p>
+        </div>
+        <div class="display-score">
+            <button class="start">Start</button>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
